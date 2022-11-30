@@ -1,0 +1,5 @@
+#colorfondo{
+    background: rgb(87,63,22);
+background: linear-gradient(90deg, rgba(87,63,22,1) 28%, rgba(143,29,14,1) 78%);
+    color: white;
+}

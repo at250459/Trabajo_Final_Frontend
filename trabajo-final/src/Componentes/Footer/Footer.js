@@ -5,6 +5,7 @@ import { FaFacebookSquare } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
 import { FaEnvelope } from "react-icons/fa";
 import { FaWhatsapp } from "react-icons/fa";
+import{ Link } from 'react-router-dom';
 
 const Footer = () => {
     return(
@@ -14,8 +15,8 @@ const Footer = () => {
                     {/* Column1 */}
                     <div className='col'>
                         <h4>Nosotros</h4>
-                        <p>Tienda de tarjetas de saldo y juegos digitales para PS3, PS4 y PS5 con excelente servicio al cliente. Precios bajos y gran variedad de productos disponibles</p>
-                        <p> Escribinos en Facebook, Instagram, Whatsapp o por E-mail</p>
+                        <p className='textofoot'> Somos un grupo personas que se dedican a analizar cada punto del juego con la mayor precision posible para brindarle a nuestros seguidores una gran confianza a la hora de seleccionar los mejores juegos para su diversion</p>
+                        <p className='textofoot'> Podes comunicarte con nosotros en nuestras redes : </p>
                         <ul className='list-unstyled'>
                             <li> <FaFacebookSquare /> Alfatex-games</li>
                             <li> <FaInstagram /> Alfatex-Digital-Games</li>
@@ -25,16 +26,16 @@ const Footer = () => {
                     </div>
                     {/* Column2 */}
                     <div className='col'>
-                        <h4>Promociones</h4>
-                        <p>¿Quieres ser el primero en enterarte de nuestros descuentos y promociones? Completa tu email para recibir mas info.</p>
+                        <h4> Todas las novedades </h4>
+                        <p className='textofoot'>¿Quieres ser el primero en enterarte de los nuevos lanzamientos ? Completa tu email para recibir mas info.</p>
                         <ul className='list-unstyled'>
-                            <li>Descuentos de hasta 25% en juegos seleccionados cada mes</li>
-                            <li>Imperdibles sorteos semanales</li>
-                            <li>3x2 en cards</li>
+                            <li className='textofoot'>Se te informara los proximos lanzamientos </li>
+                            <li className='textofoot'>Te notificaremos acerca de todos los analisis que nos consultes</li>
+                            <li className='textofoot'>Estamos a tu disposicion</li>
                             
                         </ul>
-                        <p className='anuncio'>¡Todo esto y mucho más! ¿Qué esperas para consultar por más información?</p>
-                        <Button variant="dark">Contacto</Button>{' '}
+                        <p className='anuncio'> ¿Qué esperas para consultar por más información?</p>
+                        <Link to='/contacto' className='btn btn-secondary'>Contacto</Link>{' '}
                     </div>
                 </div>
             </div>

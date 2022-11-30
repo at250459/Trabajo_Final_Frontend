@@ -1,0 +1,14 @@
+#imagen-card{
+    width: 260px;
+    height: 330px;
+    border-radius: 10px;
+}
+
+#contImg{
+    width: 40%;
+    border-radius: 10px;
+}
+
+#contText{
+    width: 60%;
+}

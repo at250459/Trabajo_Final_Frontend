@@ -12,6 +12,8 @@ import Shooter from './Componentes/Recomendaciones/Shooter/Shooter'
 import Terror from './Componentes/Recomendaciones/Terror/Terror';
 import Proximamente from './Componentes/Proximamente/Proximamente';
 import Contacto from './Componentes/Contacto/Contacto';
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 
 function App() {
   return (
@@ -33,7 +35,7 @@ function App() {
 
       <Footer />
       
-           
+
     </Router>
    
   );

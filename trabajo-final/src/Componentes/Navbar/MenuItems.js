@@ -2,26 +2,26 @@ export const MenuItems = [
     {
         title: 'Accion',
         path: '/accion',
-        cName: 'dropdown-link'
+        cName: 'dropdown-linkat'
     },
     {
         title: 'Deportes',
         path: '/deportes',
-        cName: 'dropdown-link'
+        cName: 'dropdown-linkat'
     },
     {
         title: 'Shooter',
         path: '/shooter',
-        cName: 'dropdown-link'
+        cName: 'dropdown-linkat'
     },
     {
         title: 'RPG',
         path: '/rpg',
-        cName: 'dropdown-link'
+        cName: 'dropdown-linkat'
     },
     {
         title: 'Terror',
         path: '/terror',
-        cName: 'dropdown-link'
+        cName: 'dropdown-linkat'
     }
 ]

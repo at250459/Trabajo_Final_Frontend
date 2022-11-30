@@ -12,7 +12,7 @@ function Dropdown() {
         <>
         <ul
             onClick={handleClick}
-            className={click ? 'dropdown-menu clicked' : 'dropdown-menu'}>
+            className={click ? 'dropdown-menuat clickedat' : 'dropdown-menuat'}>
                 {MenuItems.map((item, index) => {
                     return (
                         <li key={index}>

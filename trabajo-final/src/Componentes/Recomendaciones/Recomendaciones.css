@@ -1,0 +1,16 @@
+.boton{
+    width: 150px;
+}
+
+.bgcolorr{
+    background: rgb(0,0,0);
+    background: linear-gradient(90deg, rgba(0,0,0,0.9447129193474265) 28%, rgba(99,31,142,1) 99%);
+}
+
+.tamaño-titulo{
+    font-size: 50px;
+}
+
+.tamaño-intro{
+    font-size: 19px;
+}

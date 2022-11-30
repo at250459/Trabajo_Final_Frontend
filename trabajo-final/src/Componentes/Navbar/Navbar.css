@@ -1,13 +1,17 @@
-.navbar {
-  background: linear-gradient(90deg, rgb(11, 11, 123) 0%, rgb(26, 23, 23) 100%);
+.navbarat {
+  background: rgb(0,0,0);
+  background: linear-gradient(90deg, rgba(0,0,0,0.9447129193474265) 28%, rgba(99,31,142,1) 99%);
   height: 80px;
   display: flex;
   justify-content: center;
   align-items: center;
   font-size: 1.2rem;
 }
+#logo:hover{
+  color: #fff;
+}
 
-.navbar-logo {
+.navbar-logoat {
   color: #fff;
   justify-self: start;
   margin-left: 20px;
@@ -21,31 +25,33 @@
   font-size: 1.6rem;
 }
 
-.nav-menu {
+.nav-menuat {
   display: grid;
   grid-template-columns: repeat(5, auto);
   grid-gap: 10px;
   list-style: none;
   text-align: center;
-  width: 70vw;
+  width: 62vw;
   justify-content: end;
   margin-right: 2rem;
+  margin-bottom: 0 !important;
 }
 
-.nav-item {
+.nav-itemat {
   display: flex;
   align-items: center;
   height: 80px;
 }
 
-.nav-links {
+.nav-linksat {
   color: white;
   text-decoration: none;
   padding: 0.5rem 1rem;
 }
 
-.nav-links:hover {
+.nav-linksat:hover {
   background-color: #1888ff;
+  color: #fff !important;
   border-radius: 4px;
   transition: all 0.2s ease-out;
 }
@@ -54,23 +60,27 @@
   color: #fff;
 }
 
-.nav-links-mobile {
+.nav-links-mobileat {
   display: none;
 }
 
-.menu-icon {
+.menu-iconat {
   display: none;
 }
-
-@media screen and (max-width: 960px) {
+@media screen and (max-width: 1103px) {
+  .nav-menuat{
+    width: 62vw !important;
+  }
+}
+@media screen and (max-width: 972px) {
   .fa-caret-down{
     display: none;
   }
-  .NavbarItems {
+  .NavbarItemsat {
     position: relative;
   }
 
-  .nav-menu {
+  .nav-menuat {
     display: flex;
     flex-direction: column;
     width: 100%;
@@ -82,7 +92,7 @@
     transition: all 0.5s ease;
   }
 
-  .nav-menu.active {
+  .nav-menuat.activeat {
     background: linear-gradient(90deg, rgb(11, 11, 123) 0%, rgb(26, 23, 23) 100%);
     left: 0;
     opacity: 1;
@@ -90,26 +100,26 @@
     z-index: 1;
   }
 
-  .nav-links {
+  .nav-linksat {
     text-align: center;
     padding: 2rem;
     width: 100%;
     display: table;
   }
 
-  .nav-links:hover {
+  .nav-linksat:hover {
     background-color: #1888ff;
     border-radius: 0;
   }
 
-  .navbar-logo {
+  .navbar-logoat {
     position: absolute;
     top: 0;
     left: 0;
     transform: translate(25%, 50%);
   }
 
-  .menu-icon {
+  .menu-iconat {
     display: block;
     position: absolute;
     top: 0;

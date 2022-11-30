@@ -11,8 +11,9 @@ const Navbar = () => {
   const handleClick = () => setClick(!click);
   const closeMobileMenu = () => setClick(false);
 
-  const onMouseEnter = () => {
-    if(window.innerWidth < 960) {
+  const onMouseEnter = () => { 
+    console.log('entre')
+    if(window.innerWidth < 972) {
       setDropdown(false);
     } else {
       setDropdown(true)
@@ -20,7 +21,7 @@ const Navbar = () => {
   };
 
   const onMouseLeave = () => {
-    if(window.innerWidth < 960) {
+    if(window.innerWidth < 972) {
       setDropdown(false);
     } else {
       setDropdown(false)
@@ -28,34 +29,34 @@ const Navbar = () => {
   };
   return(
     <>
-      <nav className='navbar'>
-        <Link to='/' className='navbar-logo'>
+      <nav className='navbarat'>
+        <Link to='/' className='navbar-logoat' onClick={closeMobileMenu} id='logo'>
           ALFATEX-GAMES <i className='fas fa-dice'/>
         </Link>
-        <div className='menu-icon' onClick={handleClick}>
+        <div className='menu-iconat' onClick={handleClick}>
           <i class={click ? 'fas fa-times' : 'fa fa-bars'} />
         </div>
-        <ul className={click ? 'nav-menu active' : 'nav-menu'}>
-          <li className='nav-item'>
-            <Link to= '/' className= 'nav-links' onClick={closeMobileMenu}>
+        <ul className={click ? 'nav-menuat activeat' : 'nav-menuat'}>
+          <li className='nav-itemat'>
+            <Link to= '/' className= 'nav-linksat' onClick={closeMobileMenu}>
               Home
             </Link>
           </li>
-          <li className='nav-item'
+          <li className='nav-itemat'
           onMouseEnter={onMouseEnter}
           onMouseLeave={onMouseLeave}>
-            <Link to= '/recomendaciones' className= 'nav-links' onClick={closeMobileMenu}>
+            <Link to= '/recomendaciones' className= 'nav-linksat' onClick={closeMobileMenu}>
               Recomendaciones <i className='fas fa-caret-down' />
             </Link>
             {dropdown && <Dropdown />}
           </li>
-          <li className='nav-item'>
-            <Link to= '/proximamente' className= 'nav-links' onClick={closeMobileMenu}>
+          <li className='nav-itemat'>
+            <Link to= '/proximamente' className= 'nav-linksat' onClick={closeMobileMenu}>
               Proximamente
             </Link>
           </li>
-          <li className='nav-item'>
-            <Link to= '/contacto' className= 'nav-links' onClick={closeMobileMenu}>
+          <li className='nav-itemat'>
+            <Link to= '/contacto' className= 'nav-linksat' onClick={closeMobileMenu}>
               Contacto
             </Link>
           </li>

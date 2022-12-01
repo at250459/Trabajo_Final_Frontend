@@ -49,7 +49,7 @@ function Recomendaciones(){
         </div>
 
         <div className='d-flex justify-content-center p-5'>
-        <Banner image='https://www.conversadesofa.com/wp-content/uploads/2022/03/elden-ring-filmato-introduttivo-finito-rete-attenzione-spoiler-v3-570948-scaled.jpg'/>
+        <Banner image='https://i.ytimg.com/vi/GRc2rqDDBGk/maxresdefault.jpg'/>
         </div>
         <div>
             <Card image='https://www.egames.news/__export/1635614557273/sites/debate/img/2021/10/30/elden-ring-4.jpg_423682103.jpg' title='Elden Ring' body='Elden Ring es un título de acción RPG a cargo de From Software y Bandai Namco para PC, PlayStation 4, Xbox One, PlayStation 5 y Xbox Series. Álzate, Sinluz, y que la gracia te guíe para abrazar el poder del Círculo de Elden y encumbrarte como señor del Círculo en las Tierras Intermedias. Un vasto mundo perfectamente conectado en el que los territorios abiertos estarán repletos de situaciones y mazmorras enormes con diseños complejos y tridimensionales.' reseña='Elden Ring es un obra maestra sin discusión. From Software ha elevado tantísimo el listón de lo que es capaz de hacer cuando deja volar su imaginación, que es muy difícil imaginar cómo puede ser mejor el próximo juego que hagan. Parece que la única vía que todavía tiene margen de innovación es la de las mecánicas, muy arraigadas en la idiosincrasia del estudio.

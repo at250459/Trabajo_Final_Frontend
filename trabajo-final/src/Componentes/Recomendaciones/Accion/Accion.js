@@ -4,11 +4,28 @@ import Banner from '../../Banner/Banner'
 import './Accion.css'
 import Card from '../../Card/Card'
 
+
 function Accion(){
     return(
         <>
         <div className='bgcolora text-light'>
-
+        <div className='d-flex justify-content-around p-4'>
+        <Link to='/accion' className='btn btn-light boton'>
+          ACCION
+        </Link>
+        <Link to='/deportes' className='btn btn-light boton'>
+          DEPORTES
+        </Link>
+        <Link to='/rpg' className='btn btn-light boton '>
+          RPG
+        </Link>
+        <Link to='/shooter' className='btn btn-light boton'>
+          SHOOTER
+        </Link>
+        <Link to='/terror' className='btn btn-light boton'>
+          TERROR
+        </Link>
+        </div>
         <div className='d-flex justify-content-center flex-column align-items-center'>
             <h1 className='text-center mt-3 tamaño-titulo'> Estos son los 5 mejores juegos de Accion </h1>
         </div>

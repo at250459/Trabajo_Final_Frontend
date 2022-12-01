@@ -1,6 +1,5 @@
 import React from 'react';
 import "./Footer.css";
-import Button from 'react-bootstrap/Button';
 import { FaFacebookSquare } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
 import { FaEnvelope } from "react-icons/fa";
@@ -15,7 +14,6 @@ const Footer = () => {
                     {/* Column1 */}
                     <div className='col'>
                         <h4>Nosotros</h4>
-                        <p className='textofoot'> Somos un grupo personas que se dedican a analizar cada punto del juego con la mayor precision posible para brindarle a nuestros seguidores una gran confianza a la hora de seleccionar los mejores juegos para su diversion</p>
                         <p className='textofoot'> Podes comunicarte con nosotros en nuestras redes : </p>
                         <ul className='list-unstyled'>
                             <li> <FaFacebookSquare /> Alfatex-games</li>
@@ -27,14 +25,8 @@ const Footer = () => {
                     {/* Column2 */}
                     <div className='col'>
                         <h4> Todas las novedades </h4>
-                        <p className='textofoot'>¿Quieres ser el primero en enterarte de los nuevos lanzamientos ? Completa tu email para recibir mas info.</p>
-                        <ul className='list-unstyled'>
-                            <li className='textofoot'>Se te informara los proximos lanzamientos </li>
-                            <li className='textofoot'>Te notificaremos acerca de todos los analisis que nos consultes</li>
-                            <li className='textofoot'>Estamos a tu disposicion</li>
-                            
-                        </ul>
-                        <p className='anuncio'> ¿Qué esperas para consultar por más información?</p>
+                        <p className='textofoot'>¿ Quieres ser el primero en enterarte de los nuevos lanzamientos ? Completa tu email para recibir mas informacion.</p>
+                        <p className='anuncio'> ¡Estamos a tu disposicion!</p>
                         <Link to='/contacto' className='btn btn-secondary'>Contacto</Link>{' '}
                     </div>
                 </div>

@@ -4,7 +4,7 @@ import './Banner.css'
 const Banner = (props) => {
     return (
         <div className='' id='banner'>
-            <img className='' src={props.image}></img>
+            <img className='' alt='game-banner' src={props.image}></img>
         </div>
     )
 }

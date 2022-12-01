@@ -4,7 +4,7 @@
 
 .bgcolorp{
     background: rgb(0,0,0);
-    background: linear-gradient(90deg, rgba(0,0,0,0.9307073171065301) 28%, rgba(147,159,15,1) 78%);
+    background: linear-gradient(90deg, rgba(0,0,0,1) 28%, rgba(183,190,0,1) 78%);
 }
 
 .tamaño-titulo{

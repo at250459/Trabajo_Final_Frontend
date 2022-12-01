@@ -2,12 +2,29 @@ import React from 'react';
 import Card from '../../Card/Card'
 import Banner from '../../Banner/Banner'
 import './Deportes.css'
+import{ Link } from 'react-router-dom';
 
 function Deportes(){
     return(
         <>
         <div className='bgcolord text-light'>
-
+        <div className='d-flex justify-content-around p-4'>
+        <Link to='/accion' className='btn btn-success boton'>
+          ACCION
+        </Link>
+        <Link to='/deportes' className='btn btn-success boton'>
+          DEPORTES
+        </Link>
+        <Link to='/rpg' className='btn btn-success boton '>
+          RPG
+        </Link>
+        <Link to='/shooter' className='btn btn-success boton'>
+          SHOOTER
+        </Link>
+        <Link to='/terror' className='btn btn-success boton'>
+          TERROR
+        </Link>
+        </div>
         <div className='d-flex justify-content-center flex-column align-items-center'>
             <h1 className='text-center mt-3 tamaño-titulo'> Estos son los 5 mejores juegos de Deportes </h1>
         </div>

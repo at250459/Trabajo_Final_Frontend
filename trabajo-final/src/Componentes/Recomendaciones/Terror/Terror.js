@@ -2,12 +2,29 @@ import React from 'react';
 import Card from '../../Card/Card'
 import Banner from '../../Banner/Banner'
 import './Terror.css'
+import{ Link } from 'react-router-dom';
 
 function Terror(){
     return(
         <>
-                <div className='bgcolort text-light'>
-
+        <div className='bgcolort text-light'>
+        <div className='d-flex justify-content-around p-4'>
+        <Link to='/accion' className='btn btn-danger boton'>
+          ACCION
+        </Link>
+        <Link to='/deportes' className='btn btn-danger boton'>
+          DEPORTES
+        </Link>
+        <Link to='/rpg' className='btn btn-danger boton '>
+          RPG
+        </Link>
+        <Link to='/shooter' className='btn btn-danger boton'>
+          SHOOTER
+        </Link>
+        <Link to='/terror' className='btn btn-danger boton'>
+          TERROR
+        </Link>
+        </div>
 <div className='d-flex justify-content-center flex-column align-items-center'>
     <h1 className='text-center mt-3 tamaño-titulo'> Estos son los 5 mejores juegos de Terror </h1>
 </div>

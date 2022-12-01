@@ -2,12 +2,29 @@ import React from 'react';
 import Card from '../../Card/Card'
 import Banner from '../../Banner/Banner'
 import './Shooter.css'
+import{ Link } from 'react-router-dom';
 
 function Shooter(){
     return(
         <>
         <div className='bgcolors text-light'>
-
+        <div className='d-flex justify-content-around p-4'>
+        <Link to='/accion' className='btn btn-info boton'>
+          ACCION
+        </Link>
+        <Link to='/deportes' className='btn btn-info boton'>
+          DEPORTES
+        </Link>
+        <Link to='/rpg' className='btn btn-info boton '>
+          RPG
+        </Link>
+        <Link to='/shooter' className='btn btn-info boton'>
+          SHOOTER
+        </Link>
+        <Link to='/terror' className='btn btn-info boton'>
+          TERROR
+        </Link>
+        </div>
 <div className='d-flex justify-content-center flex-column align-items-center'>
     <h1 className='text-center mt-3 tamaño-titulo'> Estos son los 5 mejores juegos de Shooter </h1>
 </div>
@@ -16,14 +33,14 @@ function Shooter(){
 <Banner image='https://i.blogs.es/5b87e2/destiny2/1366_2000.jpg'/>
 </div>
 <div>
-    <Card image='https://m.media-amazon.com/images/I/71mJCznfFcL._AC_SX385_.jpg' title='Destiny 2' body='Hermana de las Formas, Rompedora de Espadas, Savathûn. La Reina Bruja aguarda a quienes buscan comprender su inexplicable control de la Luz. Sus soldados marchan con un nuevo propósito, envalentonados por un poder que nunca antes tuvieron. Ven, Guardián. Entra en su Mundo trono, experimenta la mejor campaña hasta la fecha y sobrevive a la verdad. Un nuevo destino - En el Mundo trono de Savathûn, un país de las maravillas corrupto, el equilibrio de poder es frágil. Desde el reluciente palacio hasta la oscuridad del pantano, todo lo que la reina esconde se puede encontrar aquí.' reseña= 'Es la mejor campaña de Destiny: por variedad de situaciones, por ambientación, por enfrentamientos contra jefes, por las nuevas mecánicas que hacen los combates todavía más dinámicos, y sobre todo, por la dificultad Leyenda. En lo narrativo, parte de su atractivo se pierde para quien no haya seguido la evolución de la trama a lo largo de las últimas dos temporadas, pero a cualquiera que haya jugado a Destiny 2 le sonará el nombre de Savathûn y eso es más que suficiente.' calificacion=' Calificacion 9.0 / 10' /> 
+    <Card  image='https://m.media-amazon.com/images/I/71mJCznfFcL._AC_SX385_.jpg' title='Destiny 2' body='Hermana de las Formas, Rompedora de Espadas, Savathûn. La Reina Bruja aguarda a quienes buscan comprender su inexplicable control de la Luz. Sus soldados marchan con un nuevo propósito, envalentonados por un poder que nunca antes tuvieron. Ven, Guardián. Entra en su Mundo trono, experimenta la mejor campaña hasta la fecha y sobrevive a la verdad. Un nuevo destino - En el Mundo trono de Savathûn, un país de las maravillas corrupto, el equilibrio de poder es frágil. Desde el reluciente palacio hasta la oscuridad del pantano, todo lo que la reina esconde se puede encontrar aquí.' reseña= 'Es la mejor campaña de Destiny: por variedad de situaciones, por ambientación, por enfrentamientos contra jefes, por las nuevas mecánicas que hacen los combates todavía más dinámicos, y sobre todo, por la dificultad Leyenda. En lo narrativo, parte de su atractivo se pierde para quien no haya seguido la evolución de la trama a lo largo de las últimas dos temporadas, pero a cualquiera que haya jugado a Destiny 2 le sonará el nombre de Savathûn y eso es más que suficiente.' calificacion=' Calificacion 9.0 / 10' /> 
 </div>
 
 <div className='d-flex justify-content-center p-5'>
 <Banner image='https://media.gq-magazine.co.uk/photos/613f32b9206e20aa8282c8d1/master/pass/Deathloop_Arcade%20Machines-8637260997137663145.72132952.jpg'/>
 </div>
 <div>
-    <Card image='https://image.api.playstation.com/vulcan/ap/rnd/202007/1617/Fv4asO4zbdqL83hiL9COTlWZ.png' title='DeathLoop' body='Jugarás como Colt y buscarás una forma de poner fin a un ciclo temporal que atrapa a Blackreef mientras te persiguen los habitantes de la isla. Utiliza armas poderosas y habilidades para eliminar a 8 blancos clave por la impresionante y caótica isla antes de que el día se reinicie. Acechando entre las sombras se encuentra la asesina rival Julianna, cuya única misión es eliminar a Colt para que el ciclo continúe' reseña='Los fans de Arkane, y en general todos los jugadores a quienes guste el buen diseño de niveles y los mundos que permiten completar sus objetivos de múltiples maneras, están de enhorabuena. Deathloop, lo nuevo de Arkane Lyon, es un título original, divertidísimo, que nos sumerge en su universo y que no toma al jugador por un lelo. Podía parecer que los creadores de Dishonored habían cambiado de género, que habían apostado todo a las tendencias actuales, a los disparos y a las armas con distintas rarezas, pero para nada: lo que han hecho es darle un puñado de vueltas de tuerca a su fórmula.' calificacion=' Calificacion 8.8 / 10'/>
+    <Card  image='https://image.api.playstation.com/vulcan/ap/rnd/202007/1617/Fv4asO4zbdqL83hiL9COTlWZ.png' title='DeathLoop' body='Jugarás como Colt y buscarás una forma de poner fin a un ciclo temporal que atrapa a Blackreef mientras te persiguen los habitantes de la isla. Utiliza armas poderosas y habilidades para eliminar a 8 blancos clave por la impresionante y caótica isla antes de que el día se reinicie. Acechando entre las sombras se encuentra la asesina rival Julianna, cuya única misión es eliminar a Colt para que el ciclo continúe' reseña='Los fans de Arkane, y en general todos los jugadores a quienes guste el buen diseño de niveles y los mundos que permiten completar sus objetivos de múltiples maneras, están de enhorabuena. Deathloop, lo nuevo de Arkane Lyon, es un título original, divertidísimo, que nos sumerge en su universo y que no toma al jugador por un lelo. Podía parecer que los creadores de Dishonored habían cambiado de género, que habían apostado todo a las tendencias actuales, a los disparos y a las armas con distintas rarezas, pero para nada: lo que han hecho es darle un puñado de vueltas de tuerca a su fórmula.' calificacion=' Calificacion 8.8 / 10'/>
 </div>
 
 <div className='d-flex justify-content-center p-5'>

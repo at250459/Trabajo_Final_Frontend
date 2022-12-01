@@ -2,12 +2,30 @@ import React from 'react';
 import Card from '../../Card/Card'
 import Banner from '../../Banner/Banner'
 import './Rpg.css'
+import{ Link } from 'react-router-dom';
+
 
 function Rpg(){
     return(
         <>
         <div className='bgcolorp text-light'>
-
+        <div className='d-flex justify-content-around p-4'>
+        <Link to='/accion' className='btn btn-warning boton'>
+          ACCION
+        </Link>
+        <Link to='/deportes' className='btn btn-warning boton'>
+          DEPORTES
+        </Link>
+        <Link to='/rpg' className='btn btn-warning boton '>
+          RPG
+        </Link>
+        <Link to='/shooter' className='btn btn-warning boton'>
+          SHOOTER
+        </Link>
+        <Link to='/terror' className='btn btn-warning boton'>
+          TERROR
+        </Link>
+        </div>
 <div className='d-flex justify-content-center flex-column align-items-center'>
     <h1 className='text-center mt-3 tamaño-titulo'> Estos son los 5 mejores juegos RPG </h1>
 </div>

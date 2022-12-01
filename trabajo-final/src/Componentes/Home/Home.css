@@ -1,0 +1,28 @@
+.alanse{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.textoini{
+    width: 50% !important;
+    height: 100%;
+}
+
+.imgini{
+    width: 50% !important;
+    height: 100%;
+}
+
+.bgcolorh{
+    background: rgb(0,0,0);
+    background: linear-gradient(90deg, rgba(0,0,0,0.9447129193474265) 28%, rgba(99,31,142,1) 99%);
+}
+
+.textoMedio{
+    font-size: 28px;
+    padding-left: 15rem;
+    padding-right: 15rem;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}

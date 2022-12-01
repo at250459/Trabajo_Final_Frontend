@@ -18,7 +18,7 @@ function comentarios() {
       <div className='carrousel'>
         <img
           className="d-block w-100"
-          src="https://theworldwentaway.files.wordpress.com/2022/08/the-callisto-protocol-1.jpg"
+          src="https://www.egames.news/__export/1662482223080/sites/debate/img/2022/09/06/the-callisto-protocol-2.jpg_242310155.jpg"
           alt="Second slide"
         />
     </div>

@@ -26,3 +26,10 @@
     padding-top: 5rem;
     padding-bottom: 5rem;
 }
+
+@media screen and (max-width: 960px) {
+    .textoMedio{
+        font-size: 15px;
+        padding: 5rem 5rem 5rem 5rem;
+    }
+}

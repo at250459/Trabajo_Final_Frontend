@@ -11,8 +11,9 @@ const Inicio = () => {
 
         </div>
 
-        
+
         <Carousel />
+
         <div className="textoMedio">
             <p>Somos un grupo personas que se dedican a analizar cada punto del juego con la mayor precision posible para brindarle a nuestros seguidores una gran confianza a la hora de seleccionar los mejores juegos para su diversion</p>
             <p>Esta pagina esta basada en los comentarios de las 10 paginas de recomendaciones mas conocidas del mundo gamer.</p>

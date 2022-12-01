@@ -1,11 +1,27 @@
 import React from 'react';
 import { useForm } from "react-hook-form";
 import "./Contacto.css";
+import Swal from 'sweetalert2'
+
 
 function Contacto(){
-  const { register, formState:{ errors }, handleSubmit } = useForm("");
-  const onSubmit = (data) =>{  
+  const { register, formState:{ errors }, handleSubmit, reset } = useForm({
+    defaultValues:{
+        nombre:"",
+        email:"",
+        categoria:"varios",
+        mensaje:""
+    }
+  });
+
+  const onSubmit = (data) =>{ 
     console.log(data);
+    Swal.fire({
+        icon: 'success',
+        title: 'Su mensaje ha sido enviado',
+        showConfirmButton: true,
+      })
+      reset();
 } 
 
 
@@ -55,7 +71,7 @@ function Contacto(){
                 
                 {errors.mensaje?.type === 'required' && <p className='error'> Por favor escriba su mensaje </p>}
             </div>
-            <input className='btn btn-primary mt-3' type="submit" value="Enviar" />
+            <input className='btn btn-primary mt-3' type="submit" value="Enviar"/>
         </form>
         </div>
     );
